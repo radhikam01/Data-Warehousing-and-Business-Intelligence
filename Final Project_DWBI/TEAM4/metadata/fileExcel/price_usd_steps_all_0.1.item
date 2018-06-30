@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_u8SMASjIEeeb66pzUq7D8Q" name="price_usd_steps_all" dataPackage="_u8SMAijIEeeb66pzUq7D8Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/ayush/Desktop/DWBI/FinalProject/DataSOR/CSV/SOR files/price_usd_steps_all.xlsx" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Step4" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Step4:w&#xA;Step1:w&#xA;Step2:w&#xA;Step3:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_u8SMAijIEeeb66pzUq7D8Q" name="default" dataManager="_u8SMASjIEeeb66pzUq7D8Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_u8SMAyjIEeeb66pzUq7D8Q" id="_mq8A4CjIEeeb66pzUq7D8Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_u8SMBCjIEeeb66pzUq7D8Q" label="ProductLabel" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_u8SMBSjIEeeb66pzUq7D8Q" label="CurrencyKey" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_u8SMBijIEeeb66pzUq7D8Q" label="UnitPrice" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_u8SMByjIEeeb66pzUq7D8Q" label="SCD_EffectiveDate" length="8" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_u8SMCCjIEeeb66pzUq7D8Q" label="Step" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

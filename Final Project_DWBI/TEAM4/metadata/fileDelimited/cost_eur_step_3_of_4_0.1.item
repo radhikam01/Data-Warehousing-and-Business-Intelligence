@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_uS3egSlrEeeoLPBlYP6Yyg" name="cost_eur_step_3_of_4" dataPackage="_uS3egilrEeeoLPBlYP6Yyg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ayush/Desktop/DWBI/FinalProject/DataSOR/CSV/SOR files/cost_eur_step_3_of_4.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorType="Custom String" RowSeparatorValue="&quot;\r\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_uS3egilrEeeoLPBlYP6Yyg" name="default" dataManager="_uS3egSlrEeeoLPBlYP6Yyg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_uS3egylrEeeoLPBlYP6Yyg" id="_n5NNwClrEeeoLPBlYP6Yyg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uS3ehClrEeeoLPBlYP6Yyg" label="Brand_ID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uS3ehSlrEeeoLPBlYP6Yyg" label="CurrencyKey" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uS3ehilrEeeoLPBlYP6Yyg" label="UnitCost" length="7" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uS3ehylrEeeoLPBlYP6Yyg" label="SCD_EffectiveDate" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

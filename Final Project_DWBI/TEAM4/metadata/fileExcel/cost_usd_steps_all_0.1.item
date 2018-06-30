@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_m0y4gSltEeeoLPBlYP6Yyg" name="cost_usd_steps_all" dataPackage="_m0y4giltEeeoLPBlYP6Yyg" Server="Localhost 127.0.0.1" FilePath="C:/Users/ayush/Desktop/DWBI/FinalProject/DataSOR/CSV/SOR files/xcost_usd_steps_all.xlsx" Encoding="windows-1252" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Step1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Step1:w&#xA;Step2:w&#xA;Step3:w&#xA;Step4:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_m0y4giltEeeoLPBlYP6Yyg" name="default" dataManager="_m0y4gSltEeeoLPBlYP6Yyg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_m0y4gyltEeeoLPBlYP6Yyg" id="_4i1ScClrEeeoLPBlYP6Yyg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m0y4hCltEeeoLPBlYP6Yyg" label="ProductLabel" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m0y4hSltEeeoLPBlYP6Yyg" label="CurrencyKey" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m0y4hiltEeeoLPBlYP6Yyg" label="UnitCost" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_m0y4hyltEeeoLPBlYP6Yyg" label="SCD_EffectiveDate" length="8" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

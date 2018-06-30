@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_E0mlkS0bEeeAEolFH-WORw" name="Dim_SOR_System" dataPackage="_E0mlki0bEeeAEolFH-WORw" Server="Localhost 127.0.0.1" FilePath="C:/Users/prash/Downloads/Documents/DWBI/Team Project Final/SOR Flat Files/Dim_SOR_System.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_E0mlki0bEeeAEolFH-WORw" name="default" dataManager="_E0mlkS0bEeeAEolFH-WORw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_E0mlky0bEeeAEolFH-WORw" id="_y9wf0C0aEeeAEolFH-WORw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mllC0bEeeAEolFH-WORw" label="SOR_System_ID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mllS0bEeeAEolFH-WORw" label="SOR_Name" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlli0bEeeAEolFH-WORw" label="SOR_Description" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlly0bEeeAEolFH-WORw" label="SOR_Type" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlmC0bEeeAEolFH-WORw" label="SOR_DBMS" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlmS0bEeeAEolFH-WORw" label="SOR_DBName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlmi0bEeeAEolFH-WORw" label="SOR_DBSchema" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlmy0bEeeAEolFH-WORw" label="SOR_FileType" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlnC0bEeeAEolFH-WORw" label="SOR_Filename" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlnS0bEeeAEolFH-WORw" label="SOR_AppName" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlni0bEeeAEolFH-WORw" label="SOR_AppModule" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mlny0bEeeAEolFH-WORw" label="DI_Job_ID" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mloC0bEeeAEolFH-WORw" label="DI_Create_Date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mloS0bEeeAEolFH-WORw" label="DI_Modified_Date" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_E0mloi0bEeeAEolFH-WORw" label="Column14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
